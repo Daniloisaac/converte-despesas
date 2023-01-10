@@ -1,0 +1,41 @@
+.table_container {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px,
+    rgba(0, 0, 0, 0.09) 0 -3px 5px;
+  display: table;
+  width: 100%;
+}
+
+.table_tr {
+  display: table-row;
+  font-size: 15px;
+  text-align: center;
+}
+
+.tbody_tr {
+  display: table-row;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn_delete {
+  background-color: #cf2020;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 25px;
+  margin-bottom: 5px;
+  width: 55px;
+}
+
+.btn_edited {
+  background-color: #1fc1dd;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  height: 25px;
+  margin-bottom: 10px;
+  width: 55px;
+}

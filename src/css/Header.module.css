@@ -1,0 +1,57 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_container {
+  align-items: center;
+  display: flex;
+}
+
+.header_h1 {
+  display: flex;
+  font-size: 1.5rem;
+  min-width: 100vw;
+}
+
+img {
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+}
+
+/* .box_money {
+  display: flex;
+  justify-content: center;
+  min-height: 30vh;
+  min-width: 100vw;
+} */
+
+.expenses {
+  align-items: center;
+  background-color: #20cf75;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 15px;
+  color: white;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  left: 16%;
+  margin: 0 5%;
+  margin-top: 30px;
+  min-height: 40vh;
+  position: relative;
+  width: 60%;
+}
+
+.expenses_name {
+  display: flex;
+  font-size: 15px;
+  min-height: 20vh;
+  position: absolute;
+}
+
+.email {
+  color: red;
+  display: flex;
+}
